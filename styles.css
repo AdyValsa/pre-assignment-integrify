@@ -1,0 +1,90 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerContainer {
+    display: flex;
+    background-color: #1C315E;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+.headerSection {
+    color: white;
+    height: 3em;
+    padding-top: 0.6em;
+    text-align: center;
+}
+
+#teamMembersTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#teamMembers {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.team {
+    width: 30%;
+    border: 2px solid black;
+    margin-bottom: 2em;
+    background-color: #144271;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.membersDescription {
+    padding: 2em;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+#footer {
+    background-color: #2C74B3;
+    color: white;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+#footerMenuContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#contactInfo {
+    text-align: center  ;
+}
+
+.footerMenu {
+
+}
+
+.footerSection {
+    width: 33%;
+}
+
+h5 {
+    text-align: center;
+}
+#aboutCompanyIcons {
+    text-align: center;
+}
+#aboutCompanyText {
+    font-size: 0.9em;
+    text-align: left;
+}
